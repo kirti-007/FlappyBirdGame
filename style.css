@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: radial-gradient( circle 674px at 18.3% 77%,  rgba(139,186,244,1) 3.4%, rgba(15,51,92,1) 56.6% );
+    height: 100vh;
+    padding-top: 1rem;
+}
+#board{
+    background-image: url('background.jpg');
+    background-position: 100%;
+    margin: auto;
+    display: block;
+    border: 1px solid black;
+    box-shadow: 0 0 5px whitesmoke;
+}
