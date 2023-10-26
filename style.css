@@ -5,9 +5,11 @@
 }
 
 .container{
-    background-image: radial-gradient( circle 674px at 18.3% 77%,  rgba(139,186,244,1) 3.4%, rgba(15,51,92,1) 56.6% );
+    background-image: linear-gradient( 180.5deg,  rgba(46,255,171,1) 12.3%, rgba(252,251,222,0.46) 92% );
     height: 100vh;
-    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #board{
     background-image: url('background.jpg');
@@ -15,6 +17,6 @@
     filter: brightness(1.3);
     margin: auto;
     display: block;
-    border: 1px solid black;
-    box-shadow: 0 0 5px whitesmoke;
+    border-bottom: 5px solid rgb(242, 188, 142);
+    box-shadow: 0 0 5px #801515;
 }
